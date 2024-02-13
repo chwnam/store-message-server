@@ -1,0 +1,21 @@
+{
+  "name": "changwoo/store-message-server",
+  "description": "메시지 저장 API 서버",
+  "type": "project",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "changwoo",
+      "email": "ep6tri@hotmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "files": [
+      "src/functions.php"
+    ]
+  },
+  "require": {
+    "vlucas/phpdotenv": "^5.6"
+  }
+}
